@@ -1,0 +1,32 @@
+\documentclass[11pt, a4paper, notitlepage]{extreport}
+\usepackage{kactlpkg}
+\kactlcontentdir{content}
+
+\university{KU}{Khulna University}{ku}
+\team{KU SecondTeam}{}
+% \contest{ICPC Regional 24}{NOV 09, 2024}
+\contest{\ }{}
+\enablecolors
+
+\begin{document}
+	\maketeampage
+	% Small KACTL header on the first page:
+	% \maketitle{``One Last Time'' Edition}{\today}
+	\begin{multicols*}{2}
+	% \thispagestyle{fancy}
+	% Table of contents, without subsections:
+	\setcounter{tocdepth}{0}
+	\tableofcontents
+	\kactlchapter{contest}
+	% \kactlchapter{math}
+	\kactlchapter{data-structures}
+	\kactlchapter{numerical}
+	\kactlchapter{number-theory}
+	\kactlchapter{combinatorial}
+	\kactlchapter{graph}
+	\kactlchapter{geometry}
+	\kactlchapter{strings}
+	\kactlchapter{various}
+	\end{multicols*}
+
+\end{document}
